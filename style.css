@@ -22,19 +22,10 @@ button {
 .grid-container {
     margin-top: 36px;
     border: 1px solid purple;
-}
-
-.grid {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+    display: grid;
 }
 
 .grid-item {
-    display: inline-block;
     border: 2px solid black;
-}
-
-.grid-row {
-    display: block;
+    box-sizing: border-box;
 }
