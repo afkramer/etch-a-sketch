@@ -1,4 +1,4 @@
-function createGrid(numSquares){
+function createGridFloatClear(numSquares){
     for (let i = 0; i < numSquares; i++){
         const gridRow = document.createElement('div');
         gridRow.classList.add('grid-row');
@@ -22,4 +22,4 @@ function createGrid(numSquares){
     }
 }
 
-createGrid(16);
+createGridFloatClear(16);
