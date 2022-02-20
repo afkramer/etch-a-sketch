@@ -23,20 +23,20 @@ button {
     margin-top: 36px;
     height: 960px;
     width: 960px;
-    border: 1px solid purple;
+    flex-direction: column;
+}
+
+.grid-container,
+.grid-row {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
 }
 
 .grid {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+    flex: 1;
 }
 
 .grid-item {
-    float: left;
     border: 2px solid black;
-}
-
-.grid-row {
-    clear: left;
 }
