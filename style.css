@@ -38,5 +38,41 @@ button {
 }
 
 .grid-item {
-    border: 2px solid black;
+    background-color: hsl(330, 100%, 71%);
+}
+
+.hovered-1 {
+    background-color: hsl(275, 100%, 90%);
+}
+
+.hovered-2 {
+    background-color: hsl(275, 100%, 80%);
+}
+
+.hovered-3 {
+    background-color: hsl(275, 100%, 70%);
+}
+
+.hovered-4 {
+    background-color: hsl(275, 100%, 60%);
+}
+
+.hovered-5 {
+    background-color: hsl(275, 100%, 50%);
+}
+
+.hovered-6 {
+    background-color: hsl(275, 100%, 40%);
+}
+
+.hovered-7 {
+    background-color: hsl(275, 100%, 30%);
+}
+
+.hovered-8 {
+    background-color: hsl(275, 100%, 20%);
+}
+
+.hovered-9 {
+    background-color: hsl(275, 100%, 10%);
 }
