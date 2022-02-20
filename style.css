@@ -21,8 +21,6 @@ button {
 
 .grid-container {
     margin-top: 36px;
-    height: 960px;
-    width: 960px;
     border: 1px solid purple;
 }
 
@@ -33,10 +31,10 @@ button {
 }
 
 .grid-item {
-    float: left;
+    display: inline-block;
     border: 2px solid black;
 }
 
 .grid-row {
-    clear: left;
+    display: block;
 }
