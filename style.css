@@ -25,3 +25,18 @@ button {
     width: 960px;
     border: 1px solid purple;
 }
+
+.grid {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.grid-item {
+    float: left;
+    border: 2px solid black;
+}
+
+.grid-row {
+    clear: left;
+}
