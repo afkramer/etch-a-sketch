@@ -1,4 +1,4 @@
-# etch-a-sketch
+# Digital Etch a Sketch
 
 ## My solution to the Etch a Sketch project for The Odin Project
 
